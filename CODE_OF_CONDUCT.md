@@ -2,7 +2,10 @@
 # TL;DR 
 - Support 10x scale. If 0 users will run your code, build to support 1. If 10, support 100, etc 
 - One git repo per service
--- ft. README saying What it is, How to run it locally for dev and How to ship it
+    - ft. README saying 
+        - What it is
+        - How to run it locally for dev
+        - How to ship it
 - If your service is callable from other services, expose an interface + client to call it 
 - Duplicate code in a service should be a function 
 
