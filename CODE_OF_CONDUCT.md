@@ -6,4 +6,4 @@
         - How to ship it
 - If your service is callable from other services, expose an interface + client to call it 
 - Duplicate code in a service should be a function 
-- Support 10x scale. If 0 users will run your code, build to support 1. If 10, support 100, etc
+- Support 10x scale. If 0 users will run your code, build to support at least 1. If 10, support at least 100, etc
