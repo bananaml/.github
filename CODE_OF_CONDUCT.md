@@ -1,5 +1,5 @@
 # Please do this stuff if you're shipping code
-TL;DR 
+# TL;DR 
 - Support 10x scale. If 0 users will run your code, build to support 1. If 10, support 100, etc 
 - One git repo per service
 -- ft. README saying What it is, How to run it locally for dev and How to ship it
