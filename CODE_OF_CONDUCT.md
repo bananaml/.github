@@ -2,7 +2,7 @@
 - One git repo per service
     - ft. README saying 
         - What it is
-        - How to run it locally for dev
+        - How to run + test + debug it locally
         - How to ship it
 - If your service is callable from other services, expose an interface + client to call it 
 - Duplicate code in a service should be a function 
