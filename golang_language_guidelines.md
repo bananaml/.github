@@ -1,5 +1,7 @@
 # Dev vs Prod Flags
-In a go package we use the init() function to define environment variables
+At root of go microservice define an env.go file with an init() function
+
+This init function looks for a single required variable "ENV" and then sets either prod or dev env vars accordingly
 
 This makes it easy to switch between dev and prod, keep track of env var changes, and works with any dev flow
 
