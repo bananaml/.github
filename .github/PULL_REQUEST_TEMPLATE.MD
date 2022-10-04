@@ -2,6 +2,6 @@
 
 # Why?
 
-# How did you test it? 
+# How did you test to ensure no regressions?
 
 # What is one way you can make this break?
